@@ -1,0 +1,1 @@
+SQL_CONNECTION_STR = "postgresql+psycopg2://{user}:{pw}@{url}:{port}/{db}"
