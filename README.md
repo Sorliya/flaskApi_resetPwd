@@ -12,7 +12,7 @@ python3 manager.py
                                                 })
                                                 
 4http://127.0.0.1:5000/api/auth/reset------post({
-                                                  "password": "新密码",
-                                                  "token": "上一步得到的token“
+                                                  "password": "new password",
+                                                  "token": "The token obtained in the previous step“
                                                 })
                                                 
