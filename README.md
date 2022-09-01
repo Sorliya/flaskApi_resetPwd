@@ -16,3 +16,5 @@ python3 manager.py
                                                   "token": "The token obtained in the previous step“
                                                 })
                                                 
+
+(roxep82842@otodir.com) is a temporary mailbox
