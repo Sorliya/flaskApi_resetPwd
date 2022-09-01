@@ -85,8 +85,7 @@ class LoginApi(Resource):
         user_password = args.get('password')
         if db_password != user_password:
             return Response(json.dumps({ 'msg': 'User and password does not match'}), mimetype='application/json')
-        token = create_access_token(identity=args['email'])
-        result = { 'access_token': token, 'username': data.username}
+        result = {'username': data.username}
         return Response(json.dumps(result, cls=JSONEncoder), mimetype='application/json')
 
 s = URLSafeTimedSerializer('Thisisasecret!')
